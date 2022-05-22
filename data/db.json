@@ -2,27 +2,27 @@
   "blogs" : [ 
     {
       "id": "01",
-      "title": "Caps",
+      "title": "Home Appliance",
       "image":
-        "https://k.nooncdn.com/cms/pages/20220501/b799903a440285a4425c59f09dcca898/en_banner_37.jpg",
+        "https://k.nooncdn.com/cms/pages/20220518/aecb65e39a1099dbe44267126d86d0b7/en_dk_uae-mega-02.png",
       "price": "200LKR",
-      "description": "Caps available"
+      "description": "Home Appliance"
     },
     {
       "id": "02",
-      "title": "Wallets",
+      "title": "Toy Deals",
       "image":
-        "https://k.nooncdn.com/cms/pages/20220501/b799903a440285a4425c59f09dcca898/en_banner_38.jpg",
+        "https://k.nooncdn.com/cms/pages/20220518/aecb65e39a1099dbe44267126d86d0b7/en_dk_uae-mega-03.png",
       "price": "200LKR",
-      "description": "wallets available"
+      "description": "Toy Deals"
     },
     {
       "id": "03",
-      "title": "Watches",
+      "title": "Kitchen & dinings",
       "image":
-        "https://k.nooncdn.com/cms/pages/20220501/b799903a440285a4425c59f09dcca898/en_banner_39.jpg",
+        "https://k.nooncdn.com/cms/pages/20220518/aecb65e39a1099dbe44267126d86d0b7/en_dk_uae-mega-01.png",
       "price": "200LKR",
-      "description": "watches available"
+      "description": "Kitchen & dinings"
     }
   ]
 }
