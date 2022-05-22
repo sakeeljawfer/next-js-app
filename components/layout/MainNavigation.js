@@ -13,10 +13,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href='/'>All Meetups</Link>
+            <Link href='/'>Home</Link>
           </li>
           <li><Link href='/favorites'>
-              My Favorites</Link></li>
+              Liked</Link></li>
         </ul>
       </nav>
     </header>
