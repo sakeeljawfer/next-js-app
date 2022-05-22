@@ -2,7 +2,7 @@ import { useContext } from 'react';
 
 import FavoritesContext from "../../store/favorites-context";
 import MeetupList from '../../components/meetups/MeetupList';
-
+import Layout from "../../components/layout/Layout";
  function Favourites(){
     const favoritesCtx = useContext(FavoritesContext);
 
@@ -15,7 +15,8 @@ import MeetupList from '../../components/meetups/MeetupList';
     }
     return(
         <section>
- {content}
+          <Layout> {content}</Layout>
+
         </section>
 
     );

@@ -4,6 +4,8 @@ import  Link  from "next/link";
 import classes from '../../components/layout/MainNavigation.module.css';
 import FavoritesContext from "../../store/favorites-context";
 
+
+
 function MainNavigation() {
   const favoritesCtx = useContext(FavoritesContext);
 
