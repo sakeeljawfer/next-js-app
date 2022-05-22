@@ -19,28 +19,6 @@ import AdbIcon from '@mui/icons-material/Adb';
 import classes from '../../components/layout/MainNavigation.module.css';
 import FavoritesContext from "../../store/favorites-context";
 
-
-
-// function MainNavigation() {
-//   const favoritesCtx = useContext(FavoritesContext);
-
-//   return (
-//     <header className={classes.header}>
-//       <div className={classes.logo}>React Meetups</div>
-//       <nav>
-//         <ul>
-//           <li>
-//             <Link href='/'>Home</Link>
-//           </li>
-//           <li><Link href='/favorites'>
-//               Liked</Link></li>
-//         </ul>
-//       </nav>
-//     </header>
-//   );
-// }
-
-// export default MainNavigation;
 const pages = ['home','liked'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -83,7 +61,7 @@ const MainNavigation = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            noon
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -139,7 +117,7 @@ const MainNavigation = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            noon
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
