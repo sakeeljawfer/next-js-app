@@ -9,8 +9,10 @@ npm run dev
 # or
 yarn dev
 ```
+run npx json-server --watch data/db.json --port 8000 for fetch data endpoint => ('http://localhost:8000/blogs')
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
