@@ -16,9 +16,6 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-import classes from '../../components/layout/MainNavigation.module.css';
-import FavoritesContext from "../../store/favorites-context";
-
 const pages = ['home','liked'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 

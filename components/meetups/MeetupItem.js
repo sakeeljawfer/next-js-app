@@ -1,7 +1,5 @@
 import { useContext } from 'react';
 
-// import Card from '../ui/Card';
-import classes from './MeetupItem.module.css';
 import FavoritesContext from '../../store/favorites-context';
 
 import * as React from 'react';
@@ -41,23 +39,7 @@ function MeetupItem(props) {
   }
 
   return (
-    // <li className={classes.item}>
-    //   <Card>
-    //     <div className={classes.image}>
-    //       <img src={props.image} alt={props.title} />
-    //     </div>
-    //     <div className={classes.content}>
-    //       <h3>{props.title}</h3>
-    //       <address>{props.price}</address>
-    //       <p>{props.description}</p>
-    //     </div>
-    //     <div className={classes.actions}>
-    //       <button onClick={toggleFavoriteStatusHandler}>
-    //         {itemIsFavorite ? 'Unlike 👎' : 'Like 👍'}
-    //       </button>
-    //     </div>
-    //   </Card>
-    // </li>
+
     <Card sx={{ maxWidth: 600 }}>
     <CardHeader
       avatar={
@@ -87,9 +69,7 @@ function MeetupItem(props) {
 {props.price}
       </Typography>
       <Typography variant="body2" color="text.secondary">
-        This impressive paella is a perfect party dish and a fun meal to cook
-        together with your guests. Add 1 cup of frozen peas along with the mussels,
-        if you like.
+{props.description}
       </Typography>
     </CardContent>
     <CardActions disableSpacing>
